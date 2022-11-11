@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    color: #E5E7EB;
+    margin: 0;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+/* header */ 
+.headerhero {
+    display: flex;
+
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 100px 50px 100px;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.hero {
+    display: flex;
+}
+.contenthero {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 100px 0px;
+    gap: 8px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+   
+}
+.headerlinks {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    color: #E5E7EB;
+}
+.signupone button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+
+}
+.placeholder img {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+    
+}
+
+/* information */
+
+.informationcontainer {
+    display: flex;
+  
+    flex-direction: column;
+    margin: 40px;
+    gap: 80px;
+   align-items: center;
+
+}
+
+.informationtext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.imageslist {
+    display: flex;
+    color: #1f2937;
+    gap: 20px;
+}
+.carré {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subject {
+    text-align:center;
+     width: 200px;
+}
+#rectangleimage {
+    background-color:white;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+ 
+
+}
+/* quote */
+
+.inspirationcontainer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    padding: 32px 80px;
+
+}
+.inspirationquote {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+ 
+}
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.signature {
+    font-weight: bold;
+  align-self: flex-end;   
+
+
+}
+
+/* action */
+
+.actioncontainer {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    padding: 32px 80px;
+    margin: 100px;
+
+    
+}
+.calltoaction {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 80px;
+    gap: 40px;
+
+}
+.titleaction {
+    font-weight: bold;
+}
+.ctatext {
+    display: flex;
+    flex-direction: column;
+
+}
+.signuptwo button {
+    display: flex;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+}
+/* footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 32px;
+}
